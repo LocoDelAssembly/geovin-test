@@ -1,6 +1,7 @@
 taxa_page:
   overview:
     panels:
+      - - - panel:intro
       - - - panel:gallery
           - panel:type
           - panel:type-specimen

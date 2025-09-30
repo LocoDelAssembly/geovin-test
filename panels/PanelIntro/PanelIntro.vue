@@ -1,11 +1,11 @@
 <template>
-  <VCard v-if="contents.length">
-    <ContentTopic
-      v-for="(text, title) in contentList"
-      :key="title"
-      :title="title"
-      :text-list="text"
-    />
+  <VCard v-if="intro">
+    <VCardContent class="panel-content-list">
+      <div
+        class="pt-1 text-sm"
+        v-html="intro.text"
+      ></div>
+    </VCardContent>
   </VCard>
 </template>
 
@@ -13,7 +13,6 @@
 import { computed, ref, onBeforeMount, onBeforeUnmount } from 'vue'
 import { useOtuPageRequest } from '@/modules/otus/helpers/useOtuPageRequest'
 import TaxonWorks from '@/modules/otus/services/TaxonWorks'
-import ContentTopic from './PanelContentTopic.vue'
 
 const props = defineProps({
   otuId: {
@@ -25,12 +24,8 @@ const props = defineProps({
 const contents = ref([])
 const controller = new AbortController()
 
-const contentList = computed(() =>
-  contents.value.reduce((acc, current) => {
-    if (current.name !== "Intro (Spanish)")
-      (acc[current.name] ||= []).push(current.text)
-    return acc
-  }, {})
+const intro = computed(() =>
+  contents.value.find((c) => c.name === "Intro (Spanish)")
 )
 
 onBeforeMount(() => {
@@ -52,3 +47,18 @@ onBeforeUnmount(() => {
   controller.abort()
 })
 </script>
+
+<style>
+.panel-content-list {
+  ul {
+    margin: 1rem 0;
+    list-style: disc;
+    margin-left: 1rem;
+  }
+
+  ol {
+    list-style-type: decimal;
+    margin-left: 1rem;
+  }
+}
+</style>
