@@ -37,7 +37,7 @@
   fill: #231f20; /* Light */
 }
 
-:global(.dark) .cls-1 {
+:global(.dark) :deep(.cls-1) {
   fill: #ded0df; /* Dark */
 }
 
