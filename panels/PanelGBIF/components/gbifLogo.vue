@@ -34,13 +34,13 @@
 
 <style scoped>
 .cls-1 {
-  fill: #231f20;
+  fill: #231f20; /* Light */
 }
-@media (prefers-color-scheme: dark) {
-  .cls-1 {
-    fill: #ded0df;
-  }
+
+:global(.dark) .cls-1 {
+  fill: #ded0df; /* Dark */
 }
+
 .cls-2 {
   fill: #4c9c2e;
 }
