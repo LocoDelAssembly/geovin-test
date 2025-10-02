@@ -10,7 +10,17 @@ taxa_page:
           - panel:nomenclature-references
 
         - - panel:map
+          - panel:gbif
           - panel:descendants
           - panel:keys
           - panel:statistics
           - panel:sounds
+  inaturalist:
+    label: 'iNaturalist'
+    rank_group: ['GenusGroup', 'SpeciesGroup']
+    panels:
+      - - - id: panel:inaturalist
+            bind:
+              parameters:
+                taxon_id: 472290 # The `taxon_id` parameter is used as a scope to limit the search to the Orthoptera order.
+
