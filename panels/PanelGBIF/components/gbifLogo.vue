@@ -36,6 +36,11 @@
 .cls-1 {
   fill: #231f20;
 }
+@media (prefers-color-scheme: dark) {
+  .cls-1 {
+    fill: #ded0df;
+  }
+}
 .cls-2 {
   fill: #4c9c2e;
 }
