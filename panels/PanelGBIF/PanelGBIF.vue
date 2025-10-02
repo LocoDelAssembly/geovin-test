@@ -30,7 +30,7 @@ const props = defineProps({
 
 const url = computed(() => {
   return usageKey.value
-    ? `https://www.gbif.org/species/${usageKey.value}`
+    ? `https://www.gbif.org/occurrence/search?dataset_key=eae731a7-3e82-4295-b0b3-ec72d75a402d&dataset_key=94adad5f-fb11-426f-93e0-3dd02f3ccd1d&dataset_key=afc62d53-02ae-4bf9-bebc-19255a3417b1&taxon_key=${usageKey.value}occurrence_status=present`
     : null
 })
 const usageKey = ref(null)
