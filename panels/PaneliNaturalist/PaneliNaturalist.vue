@@ -103,6 +103,6 @@ function loadObservations(params = {}) {
 }
 
 onMounted(() => {
-  loadObservations({ per_page: props.perPage })
+  loadObservations({ per_page: props.perPage, quality_grade: "research" })
 })
 </script>
