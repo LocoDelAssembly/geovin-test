@@ -22,5 +22,4 @@ taxa_page:
       - - - id: panel:inaturalist
             bind:
               parameters:
-                taxon_id: 472290 # The `taxon_id` parameter is used as a scope to limit the search to the Orthoptera order.
-
+                taxon_id: 48959 # Reduviidae
