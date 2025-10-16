@@ -38,6 +38,7 @@ Con la creación de la Red Global para la Enfermedad de Chagas en 2007, surgió 
 - Emilia Barboza - CEPAVE, CONICET-UNLP
 - Ana Laura Carbajal de la Fuente - CeNDIE, ANLIS Malbrán      
 - Patricia Lobbia - CeNDIE, ANLIS Malbrán
+- Mariana Manteca Acosta - CeNDIE, ANLIS Malbrán
 - Carolina Carrillo - ICT Milstein
 - Mariana Sanmartino - GDC, IFLYSIB
 
@@ -71,7 +72,7 @@ Con la creación de la Red Global para la Enfermedad de Chagas en 2007, surgió 
 
 ### MÉXICO  
 - Etienne Waleckx, Centro de Investigaciones Regionales Dr. Hideyo Noguchi
-- Carlos Ibarra, Universidad de Guadalajara
+- Carlos Ibarra Cerdeña, Universidad de Guadalajara
 
 ### PARAGUAY
 - Antonieta Rojas de Arias - Centro para el Desarrollo de la Investigación Científica
