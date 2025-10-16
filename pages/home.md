@@ -38,3 +38,11 @@ Está abierto a la contribución por parte de cualquier persona que tenga regist
 
 ## Desarrollador
 - Hernán Lucas Pereira - CEPAVE – CONICET-UNLP, Argentina
+
+
+<div style="margin: auto; background-color: #F7F7F7; display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 4em; margin: 4em 0;">
+  <img src="/logo-cepave.png" alt="Centro de Estudios de Parasitológicos y de Vectores" style="height: 150px;"/>
+  <img src="/logo-texas.png" alt="Texas A&M College of Veterinary Medicine & Biomedical Sciences" style="height: 150px;"/>
+  <img src="/logo-unb.png" alt="UnB" style="height: 150px;"/>
+  <img src="/logo-FioCruz-Minas.jpeg" alt="FioCruz Minas" style="height: 50px;"/>
+</div>
