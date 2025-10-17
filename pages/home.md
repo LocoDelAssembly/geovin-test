@@ -1,5 +1,5 @@
 <div class="w-full">
-  <div class="relative w-full bg-cover bg-center flex items-center" style="background-image: url('/redtri-test/portada.jpeg'); min-height: 50vh;">
+  <div class="relative mx-[calc(50%-50vw)] w-screen bg-cover bg-center flex items-center h-[60vh] min-h-[300px]" style="background-image: url('/redtri-test/portada.jpeg');">
     <!-- overlay to improve text contrast -->
     <div class="absolute inset-0 bg-black/40"></div>
     <!-- centered content on the hero image -->
@@ -7,7 +7,7 @@
       <div>
         <h1 class="text-center text-white drop-shadow">GeoTri</h1>
         <h2 class="mt-0 text-center text-white drop-shadow">Base de datos de la Red Global para el Control Integral de Triatominos (RedTri)</h2>
-          <div class="m-auto mt-12 inline-flex rounded-lg bg-white/10 p-3 text-left">
+          <div class="m-auto inline-flex rounded-lg bg-white/10 p-3 text-left">
             <autocomplete-otu class="!w-[17em]" placeholder="Búsqueda por nombre del taxón"/>
           </div>
       </div>
