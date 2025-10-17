@@ -1,5 +1,5 @@
 <div class="w-full">
-  <div class="relative -mt-4 mx-[calc(50%-50vw)] w-screen bg-cover bg-center flex items-center h-[calc(100svh-3rem)] min-h-[300px]" style="background-image: url('/redtri-test/portada.jpeg');">
+  <div class="relative -mt-4 mx-[calc(50%-50vw)] w-screen bg-cover bg-center flex items-center h-[calc(100svh-56px)] min-h-[350px]" style="background-image: url('/redtri-test/portada.jpeg');">
     <div class="absolute inset-0 bg-black/40"></div>
     <div class="absolute inset-0 z-10 grid place-items-center text-center px-4">
       <div>
@@ -9,6 +9,9 @@
             <autocomplete-otu class="!w-[17em]" placeholder="Búsqueda por nombre del taxón"/>
           </div>
       </div>
+    </div>
+    <div class="absolute bottom-4 right-4 pointer-events-none text-white text-xs md:text-sm bg-black/50 px-2 py-1 rounded">
+      Fotografía: Walter Ferrari
     </div>
   </div>
 </div>
