@@ -1,9 +1,9 @@
 <div class="w-full">
-  <div class="relative -mt-4 mx-[calc(50%-50vw)] w-screen bg-cover bg-center flex items-center h-[85vh] min-h-[300px]" style="background-image: url('/redtri-test/portada.jpeg');">
+  <div class="relative -mt-4 mx-[calc(50%-50vw)] w-screen bg-cover bg-center flex items-center h-[calc(100svh-3rem)] min-h-[300px]" style="background-image: url('/redtri-test/portada.jpeg');">
     <div class="absolute inset-0 bg-black/40"></div>
     <div class="absolute inset-0 z-10 grid place-items-center text-center px-4">
       <div>
-        <h1 class="text-center text-white drop-shadow">GeoTri</h1>
+        <h1 class="-mt-4 text-center text-white drop-shadow">GeoTri</h1>
         <h2 class="mt-0 text-center text-white drop-shadow">Base de datos de la Red Global para el Control Integral de Triatominos (RedTri)</h2>
           <div class="m-auto inline-flex rounded-lg bg-white/10 p-3 text-left">
             <autocomplete-otu class="!w-[17em]" placeholder="Búsqueda por nombre del taxón"/>
