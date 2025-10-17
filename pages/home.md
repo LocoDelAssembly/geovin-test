@@ -1,11 +1,24 @@
-<h1 class="mb-0 text-center">GeoTri</h1>
-<h2 class="mt-4 text-center">Base de datos de la Red Global para el Control Integral de Triatominos (RedTri)</h2>
-<autocomplete-otu class="!w-[17em] m-auto" placeholder="Búsqueda por nombre del taxón"/>
+<div class="w-full">
+  <div class="relative w-full bg-cover bg-center flex items-center" style="background-image: url('/redtri-test/portada.jpeg'); min-height: 50vh;">
+    <!-- overlay to improve text contrast -->
+    <div class="absolute inset-0 bg-black/40"></div>
+    <!-- centered content on the hero image -->
+    <div class="absolute inset-0 z-10 grid place-items-center text-center px-4">
+      <div>
+        <h1 class="text-center text-white drop-shadow">GeoTri</h1>
+        <h2 class="mt-0 text-center text-white drop-shadow">Base de datos de la Red Global para el Control Integral de Triatominos (RedTri)</h2>
+          <div class="m-auto mt-12 inline-flex rounded-lg bg-white/10 p-3 text-left">
+            <autocomplete-otu class="!w-[17em]" placeholder="Búsqueda por nombre del taxón"/>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 GeoTri es una base de datos geoespacial conformada a través de una recopilación de registros de las diversas especies de triatominos distribuidos en el mundo, tanto vivos como fósiles. Contiene información taxonómica, geográfica, ecológica y epidemiológica de todas las especies, con referencias, imágenes, mapas y registros de especímenes.
 
 El objetivo principal es el de proporcionar un recurso de información integrada, que facilite la investigación y la toma de decisiones sobre la biodiversidad de triatominos, así como también acercar información actualizada al público en general sobre las diversas especies de triatominos del mundo.
- 
+
 Está abierto a la contribución por parte de cualquier persona que tenga registros de presencia de las diversas especies de triatominos.
 
 <div class="mt-8 grid grid-cols-1 md:grid-cols-[1fr_auto] items-start gap-6">
@@ -49,11 +62,12 @@ Está abierto a la contribución por parte de cualquier persona que tenga regist
     </ul>
   </div>
 
-  <img
+<img
     src="/logo-geotri.png"
     alt="GeoTri"
     class="w-96 md:w-[300px] lg:w-[500px] xl:w-[700px] mx-auto md:mx-0"
   />
+
 </div>
 
 <div style="margin: auto; background-color: #F7F7F7; display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 4em; margin: 4em 0;">
