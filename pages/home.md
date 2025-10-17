@@ -1,8 +1,6 @@
 <div class="w-full">
-  <div class="relative mx-[calc(50%-50vw)] w-screen bg-cover bg-center flex items-center h-[60vh] min-h-[300px]" style="background-image: url('/redtri-test/portada.jpeg');">
-    <!-- overlay to improve text contrast -->
+  <div class="relative -mt-4 mx-[calc(50%-50vw)] w-screen bg-cover bg-center flex items-center h-[85vh] min-h-[300px]" style="background-image: url('/redtri-test/portada.jpeg');">
     <div class="absolute inset-0 bg-black/40"></div>
-    <!-- centered content on the hero image -->
     <div class="absolute inset-0 z-10 grid place-items-center text-center px-4">
       <div>
         <h1 class="text-center text-white drop-shadow">GeoTri</h1>
