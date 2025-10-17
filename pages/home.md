@@ -1,6 +1,6 @@
 <h1 class="mb-0 text-center">GeoTri</h1>
 <h2 class="mt-4 text-center">Base de datos de la Red Global para el Control Integral de Triatominos (RedTri)</h2>
-<autocomplete-otu class="!w-[25em] m-auto" placeholder="Búsqueda por nombre del taxón"/>
+<autocomplete-otu class="!w-[17em] m-auto" placeholder="Búsqueda por nombre del taxón"/>
 
 GeoTri es una base de datos geoespacial conformada a través de una recopilación de registros de las diversas especies de triatominos distribuidos en el mundo, tanto vivos como fósiles. Contiene información taxonómica, geográfica, ecológica y epidemiológica de todas las especies, con referencias, imágenes, mapas y registros de especímenes.
 
