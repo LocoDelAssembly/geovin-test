@@ -55,7 +55,7 @@ Está abierto a la contribución por parte de cualquier persona que tenga regist
     </ul>
     <h3>MÉXICO</h3>
     <ul>
-      <li>Carlos Ibarra, Universidad de Guadalajara</li>
+      <li>Carlos Ibarra Cerdeña, Universidad de Guadalajara</li>
     </ul>
     <h2>Desarrollador</h2>
     <ul>
