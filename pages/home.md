@@ -55,7 +55,7 @@ Está abierto a la contribución por parte de cualquier persona que tenga regist
     </ul>
     <h3>MÉXICO</h3>
     <ul>
-      <li>Carlos Ibarra Cerdeña, Centro de Invetsigación y de Estudios Avanzados (Cinvestav)</li>
+      <li>Carlos Ibarra Cerdeña, Centro de Investigación y de Estudios Avanzados (Cinvestav)</li>
     </ul>
     <h2>Desarrollador</h2>
     <ul>
