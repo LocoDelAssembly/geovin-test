@@ -72,7 +72,7 @@ Con la creación de la Red Global para la Enfermedad de Chagas en 2007, surgió 
 
 ### MÉXICO  
 - Etienne Waleckx, Centro de Investigaciones Regionales Dr. Hideyo Noguchi
-- Carlos Ibarra Cerdeña, Universidad de Guadalajara
+- Carlos Ibarra Cerdeña, Centro de Invetsigación y de Estudios Avanzados (Cinvestav)
 
 ### PARAGUAY
 - Antonieta Rojas de Arias - Centro para el Desarrollo de la Investigación Científica
